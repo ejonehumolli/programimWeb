@@ -1,0 +1,90 @@
+p{
+    text-transform:uppercase;
+    background-image: url(img.jfif);
+}
+a{
+    text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+a.four:hover {font-family:monospace;}
+
+#grad2
+{
+height:200px;
+background: -webkit-linear-gradient(red, orange, yellow, green, blue,
+indigo, violet);
+
+background: -o-linear-gradient(red, orange, yellow, green, blue,
+indigo, violet);
+background: -moz-linear-gradient(red, orange, yellow, green, blue,
+indigo, violet);
+background: linear-gradient(red, orange, yellow, green, blue, indigo,
+violet);
+}
+#grad3
+{
+height:200px;
+background: -webkit-linear-gradient(red 10%, green 85%, blue 90%);
+background: -o-linear-gradient(red 10%, green 85%, blue 90%);
+background: -moz-linear-gradient(red 10%, green 85%, blue 90%);
+background: linear-gradient(red 10%, green 85%, blue 90%);
+}
+
+@font-face {
+    font-family: "fonti_i_ri";
+    src: url(www.fonts.com);
+
+}
+p  {
+    font-family: "fonti_i_ri";
+}
+
+/* div
+{
+width:300px;
+height:100px;
+background-color:yellow;
+box-shadow: 100px 100px 50px #888888;
+} */
+
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 120px;
+  height: 160px;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 40px;
+  transition: transform 1s;
+}
+
+.card1 {
+  background: red;
+  
+}
+
+.card2 {
+  background: blue;
+}
+
+.card1:hover {
+  transform: rotateY(-90deg); /* left */
+}
+
+.card2:hover {
+  transform: rotateY(90deg); /* right */
+}
